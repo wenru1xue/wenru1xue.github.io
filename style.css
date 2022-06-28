@@ -7,52 +7,102 @@
     /*内边距*/
     box-sizing: border-box;
     /*盒子大小规则*/
-    font-family: sans-serif;
+    font-family: Aldivaro;
     /*字体:非衬线*/
 }
 
-body {
-    background: linear-gradient(45deg, #8500ff, #5acaff);
+*body {
+    background: linear-gradient(#E800FD, #332FCA);
     /*背景颜色渐变*/
-    height: 100vh;
+    *height: 10vh;
     /*高度：100视窗*/
 }
 
 #container {
     position: absolute;
     /*绝对定位*/
-    top: 10%;
+    width: 100%;
+    height: 100%;
+
+    top: 0%;
     /*距上部*/
-    left: 10%;
-    right: 10%;
-    bottom: 10%;
-    border-radius: 10px;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    border-radius: 0px;
     /*圆角边框*/
     display: flex;
     /*弹性盒模型*/
-    justify-content: center;
+    /*justify-content: center;*/
     /*主轴对齐方式*/
-    align-items: center;
+    /*align-items: top;*/
     /*交叉轴对齐方式*/
-    background: url('./test_largesize-01.png'), #151729;
+    background: url('./test_largesize-02.png');
+    background-repeat: repeat-x;
     /*背景图片，颜色*/
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
     /*背景阴影*/
 }
 
 #container .content {
-    max-width: 600px;
+    /*max-width: 600px;*/
     /*最大宽度*/
-    text-align: center;
-    /*字体行居中*/
+    /*text-align: center;*/
+    /*text-align: left;*/
+    /*整个标题字体居左对齐*/
+    /*padding: 10px 10px;*/
+    /*margin-bottom: 10px;*/
+    /*标题距离窗口左边长度*/
+
 }
 
-#container .content h2 {
-    font-size: 18vw;
+#container .content h1-1 {
+    /*position: absolute;*/
+    top: 100px;
+    left: 100px;
+    width: 100%;
+    padding: 100px 100px;
+
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: left;
+    text-align: left;
+    font-size: 2vw;
     /*字体大小*/
-    color: #fff;
-    line-height: 1em;
+    color: #E800FD;
+    line-height: 2em;
     /*行高*/
+
+
+
+}
+
+
+
+
+
+#container .content h1-2 {
+    position: relative;
+    /*top: 14px;
+    left: 397px;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;*/
+    align-items: left;
+    font-size: 2vw;
+    color: #fff;
+    margin-left: -5px;
+}
+
+
+#container .content h3 {
+    font-size: 12vm;
+    line-height: 10em;
+    color: #E800FD;
+
+    margin-top: 1px;
+
 }
 
 #container .content h4 {
@@ -73,15 +123,52 @@ body {
 }
 
 #container .content a {
-    position: relative;
-    display: inline-block;
-    padding: 10px 25px;
-    background: #ff0562;
-    color: #fff;
+    /*position: absolute;*/
+
+    /*display: inline-block;*/
+    /*top: 100px;
+    right: 100px;
+    width: 100%;
+    padding-right: 100px;
+
+    /*background: #332FCA;*/
+    /*color: #332FCA;
     text-decoration: none;
-    margin-top: 25px;
-    border-radius: 25px;
-    border-bottom: 4px solid #d00d56;
+    /*margin-top: 25px;*/
+    /*border-radius: 25px;
+    border-bottom: 4px solid #d00d56;*/
     /*下边框*/
-    user-select: none;
+    /*user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    text-align: right;
+
+    /*字体大小*/
+
+
+
+    top: 100px;
+    left: 100px;
+    width: 100%;
+    padding: 25px 100px;
+
+    text-decoration: none;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: left;
+    text-align: left;
+    font-size: 1vw;
+    /*字体大小*/
+    color: #332FCA;
+    line-height: 1em;
+    /*行高*/
+
+
 }
+
+/*#container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
