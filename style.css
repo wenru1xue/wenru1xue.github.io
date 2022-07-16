@@ -72,14 +72,7 @@
     color: #E800FD;
     line-height: 2em;
     /*行高*/
-
-
-
 }
-
-
-
-
 
 #container .content h1-2 {
     position: relative;
@@ -95,9 +88,8 @@
     margin-left: -5px;
 }
 
-
 #container .content h3 {
-    font-size: 12vm;
+    font-size: 12vw;
     line-height: 10em;
     color: #E800FD;
 
@@ -118,8 +110,32 @@
 }
 
 #container .content p {
+
+    top: 100px;
+    left: 100px;
+    width: 100%;
+    padding: 25px 100px;
+    text-decoration: none;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    line-height: 2em;
+    color: #E800FD;
+    font-size: 1vw;
+}
+
+#container .content d {
+    top: 100px;
+    left: 100px;
+    width: 100%;
+    padding: 25px 100px;
+    text-decoration: none;
+    display: flex;
+    align-items: left;
+    text-align: left;
+    line-height: 1em;
+    font-size: 0.01vw;
     color: #fff;
-    font-size: 1.2em;
 }
 
 #container .content a {
@@ -158,10 +174,10 @@
     /*justify-content: space-between;*/
     align-items: left;
     text-align: left;
-    font-size: 1vw;
+    font-size: 0.1vw;
     /*字体大小*/
     color: #332FCA;
-    line-height: 1em;
+    line-height: 0.1em;
     /*行高*/
 
 
@@ -172,3 +188,19 @@
     justify-content: center;
     align-items: center;
 }*/
+
+
+
+/*介绍文字：在大约一千年以前，人类的生活在战争与文化、贸易交流的世界环境中，
+About a thousand years ago, humans lived in a world environment of war and cultural and trade exchanges,
+
+现在，人们生活在病毒扩散和全球变暖的世界环境中，
+and now are living in a world where viruses are spreading and global warming is.
+
+大约一千年以后会是什么样的呢？
+What will the surroundings be in about a thousand years?
+
+冰川融化后，水淹没所有土地吗？会有大量变异生物活动吗？
+Will the sea flood all the land when the glaciers melt? 
+
+Will there be a large number of mutant creatures active?
